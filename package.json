@@ -1,10 +1,14 @@
 {
     "private": true,
     "scripts": {
-        "build":"micro build",
         "start": "micro"
     },
-
+    "builds": [
+        {
+          "src": "*.js",
+          "use": "@vercel/node"
+        }
+    ],
     "dependencies": {
         "micro": "^9.1.0"
     }
