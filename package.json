@@ -1,7 +1,8 @@
 {
     "private": true,
     "scripts": {
-        "start": "micro"
+        "start": "micro",
+        "build":"micro"
     },
     "dependencies": {
         "micro": "^9.1.0"
