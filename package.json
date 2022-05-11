@@ -2,7 +2,6 @@
     "private": true,
     "scripts": {
         "start": "micro",
-        "build": "micro build --output public"
     },
 
     "dependencies": {
