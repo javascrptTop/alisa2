@@ -1,6 +1,7 @@
 {
     "private": true,
     "scripts": {
+        "build":"micro build --output public",
         "start": "micro"
     },
 
